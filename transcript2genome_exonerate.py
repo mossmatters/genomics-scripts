@@ -2,6 +2,7 @@
 
 import argparse,sys,os,subprocess,shutil,errno
 from Bio import SeqIO
+import os
 
 helptext='''
 This script is intended to use the results of a BLAST search of a transcriptome 
